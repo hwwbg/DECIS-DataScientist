@@ -18,9 +18,9 @@ app.layout = html.Div(
     children=[
         html.Div(
             children=[
-                html.Img(src='https://upload.wikimedia.org/wikipedia/commons/8/87/The_World_Bank_logo.svg'),
+                #html.Img(src='https://upload.wikimedia.org/wikipedia/commons/8/87/The_World_Bank_logo.svg'),
                 html.H1(children="Inflation Sensitive Analysis",),
-                html.P(children="Porject the poverty under the shock of inflation",),
+                html.P(children="Porject the poverty under the shock of inflation (all the data is confidential, not for distribution)",),
             ],
         ),
         html.Div(
